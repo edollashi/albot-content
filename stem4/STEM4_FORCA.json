@@ -1,0 +1,118 @@
+{
+  "lesson_id": "STEM4_FORCA",
+  "title_sq": "Forca & lëvizja (shty/terhiq, fërkimi)",
+  "title_en": "Force & motion",
+  "objective": "Nxënësi kupton shty/terhiq, rolin e fërkimit dhe shpejtësinë.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Shty/terhiq objekte (kuti).",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Skemë forcë→lëvizje; fërkimi.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Forcë, drejtim, fërkim, shpat i pjerrët."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem4_forca_sq.mp3",
+    "en": "assets/audio/stem4_forca_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Forca 'shty' bën trupin të:",
+      "options_sq": [
+        "ndalet",
+        "kthehet në gaz",
+        "lëvizë ose ndryshojë shpejtësi",
+        "ngrihet në temperaturë"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Forca ndryshon gjendjen e lëvizjes.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Fërkimi zakonisht:",
+      "options_sq": [
+        "rrit lëvizjen",
+        "kundërshton lëvizjen",
+        "s’e ndikon",
+        "bën trupin të fluturojë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Fërkimi frenon.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Topi rrokulliset më lehtë në:",
+      "options_sq": [
+        "tapet",
+        "bar të lagësht",
+        "parket të lëmuar",
+        "rërë"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Fërkim më i vogël.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Shpejtësia rritet kur:",
+      "options_sq": [
+        "forca rritet në të njëjtin drejtim",
+        "forca është zero",
+        "forca kundërshton lëvizjen",
+        "trupi fle"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Forcë më e madhe → rrit shpejtësinë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cila është 'terhiq'?",
+      "options_sq": [
+        "shtyj derën",
+        "tërhiq litarin",
+        "shtyj karrocën",
+        "shtyj topin"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Tërheqje drejt vetes.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Shpat i pjerrët ul:",
+      "options_sq": [
+        "forcën e nevojshme",
+        "fërkimin",
+        "peshën",
+        "gjatësinë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Për punë të njëjtë, forcë më e vogël.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "STEM-Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

@@ -1,0 +1,118 @@
+{
+  "lesson_id": "STEM4_MAKINAT",
+  "title_sq": "Makinat e thjeshta",
+  "title_en": "Simple machines",
+  "objective": "Nxënësi njeh levën, rrotën&boshtin, rrotëzën (pulley) dhe shpatin e pjerrët.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Leva me vizore dhe gomë.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Skema e makinave të thjeshta.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Avantazhi mekanik bazik."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem4_makinat_sq.mp3",
+    "en": "assets/audio/stem4_makinat_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cila është makinë e thjeshtë?",
+      "options_sq": [
+        "levë",
+        "kompjuter",
+        "libër",
+        "shishe"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Levë është makinë e thjeshtë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Rrota&boshti ndihmon të:",
+      "options_sq": [
+        "ngrohësh ujin",
+        "lëvizësh më lehtë",
+        "shkruash më shpejt",
+        "pikturosh"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ul fërkimin/forcën.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Rrotëza (pulley) shërben për:",
+      "options_sq": [
+        "ngrohje",
+        "ndryshim drejtimi force",
+        "dritë",
+        "tingull"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ndryshon drejtimin/forcën.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Shembull shpat i pjerrët:",
+      "options_sq": [
+        "rampa",
+        "pishinë",
+        "dritare",
+        "mikrofon"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Rampa është shpat i pjerrët.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Leva kursen forcë kur pika e mbështetjes është:",
+      "options_sq": [
+        "shumë larg ngarkesës",
+        "shumë afër ngarkesës",
+        "në mes",
+        "nuk ka rëndësi"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Klasa 2/3 — afër ngarkesës.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Shumëzimi mekanik i një sistemi rrotëzash rreth:",
+      "options_sq": [
+        "0",
+        "1",
+        ">1",
+        "<1"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Pulley block rrit avantazhin.",
+      "difficulty": 0.5
+    }
+  ],
+  "badges_on_complete": [
+    "STEM-Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

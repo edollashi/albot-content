@@ -1,0 +1,118 @@
+{
+  "lesson_id": "STEM4_ENERGJIA",
+  "title_sq": "Format e energjisë",
+  "title_en": "Forms of energy",
+  "objective": "Nxënësi dallon energjinë e dritës, nxehtësisë, tingullit dhe elektrike.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Shiko burime reale (llambë, radio, ngrohës).",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabelë burim→formë energjie.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Konvertime energjie; rinovueshme vs jo."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem4_energjia_sq.mp3",
+    "en": "assets/audio/stem4_energjia_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cili është burim DRITE?",
+      "options_sq": [
+        "Dielli",
+        "fshesa",
+        "peshorja",
+        "libri"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Dielli jep dritë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Ngrohësi jep energji:",
+      "options_sq": [
+        "tingulli",
+        "nxehtësia",
+        "drita",
+        "kimike"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ngrohje = nxehtësi.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Cila pajisje prodhon tingull?",
+      "options_sq": [
+        "radio",
+        "fener",
+        "bateri",
+        "panel diellor"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Radio = tingull.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Energjia elektrike mund të kthehet në:",
+      "options_sq": [
+        "vetëm dritë",
+        "vetëm nxehtësi",
+        "shumë forma (dritë, nxehtësi, lëvizje)",
+        "asgjë"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Konvertime energjie.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Burim i rinovueshëm:",
+      "options_sq": [
+        "qymyri",
+        "era",
+        "nafta",
+        "gazi"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Era rinovueshme.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Paneli diellor shndërron:",
+      "options_sq": [
+        "dritë → elektricitet",
+        "ujë → gaz",
+        "tingull → dritë",
+        "nxehtësi → ftohtë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "PV: dritë→energji elektrike.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "STEM-Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

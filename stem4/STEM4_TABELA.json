@@ -1,0 +1,118 @@
+{
+  "lesson_id": "STEM4_TABELA",
+  "title_sq": "Të dhënat & diagramë shtyllash",
+  "title_en": "Data & bar charts",
+  "objective": "Nxënësi lexon dhe ndërton diagramë shtyllash nga një tabelë e thjeshtë.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Numëro objekte reale dhe gruponi sipas llojit.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabelë → vizato shtylla për secilën kategori.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Hapat: mblidh të dhëna → shkallë → shtylla → titull/legjendë."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem4_tabela_sq.mp3",
+    "en": "assets/audio/stem4_tabela_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Në një diagramë: 5 mollë, 3 dardha, 8 portokaj. Cili frut është më i shumti?",
+      "options_sq": [
+        "Mollë",
+        "Dardha",
+        "Portokaj",
+        "Të gjithë njësoj"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Shtylla më e lartë: 8 portokaj.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Nëse shtylla e mollëve rritet nga 5 në 7, sa është ndryshimi?",
+      "options_sq": [
+        "+1",
+        "+2",
+        "+3",
+        "+4"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "7−5 = 2.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Cila tabelë është e përshtatshme për diagramë shtyllash?",
+      "options_sq": [
+        "Lartësi çdo dite",
+        "Temperaturë çdo sekondë",
+        "Ngjyra e qiellit",
+        "Pozicioni i planetëve"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Kategoritë diskrete: ditët.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Në diagramë, boshti horizontal tregon zakonisht:",
+      "options_sq": [
+        "vlera numerike",
+        "kohën",
+        "kategoritë",
+        "ngjyrat"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Boshti X për kategori.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Shuma e të gjithave: 5+3+8 = ?",
+      "options_sq": [
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "5 + 3 + 8 = 16.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Kur ndërtojmë shtyllat, boshti Y duhet:",
+      "options_sq": [
+        "të jetë pa numra",
+        "të nisë nga 100",
+        "të ketë shkallë të barabarta",
+        "të përdorë vetëm numra çift"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Shkallë të barabarta për lexim korrekt.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "STEM-Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

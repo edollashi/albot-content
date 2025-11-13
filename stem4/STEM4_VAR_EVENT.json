@@ -1,0 +1,118 @@
+{
+  "lesson_id": "STEM4_VAR_EVENT",
+  "title_sq": "Variabla & ngjarje (events)",
+  "title_en": "Variables & events",
+  "objective": "Nxënësi përdor variabël për pikë dhe ngjarje (p.sh. buton shtypur).",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Loja me butona (micro:bit/MakeCode).",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Diagramë variabël→event.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Variabla (ruajtje) + ngjarje (shkaktim)."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem4_var_event_sq.mp3",
+    "en": "assets/audio/stem4_var_event_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Variabla shërben për:",
+      "options_sq": [
+        "ruajtur një vlerë",
+        "vizatuar",
+        "ngjyrosur",
+        "fshirë skedarin"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Ruajtje vlerash (p.sh. pikë).",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "'on Button A pressed' është:",
+      "options_sq": [
+        "variabël",
+        "ngjarje (event)",
+        "loop",
+        "kusht"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ngjarje që shkakton kod.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Për të rritur pikët +1 bën:",
+      "options_sq": [
+        "pikë = pikë + 1",
+        "pikë = 1",
+        "pikë = -1",
+        "pikë = 0"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Inkrementim.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cili është shembull i mirë i eventit?",
+      "options_sq": [
+        "kur koha mbaron",
+        "ngjyra blu",
+        "numri 7",
+        "një libër"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Event timer/koha mbaron.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "'Reset score' do të thotë:",
+      "options_sq": [
+        "rrite +1",
+        "ktheje në 0",
+        "shumëzoje me 10",
+        "nuk ndrysho"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Rivendos 0.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Ngjarjet lidhen me:",
+      "options_sq": [
+        "veprime përdoruesi ose kohë",
+        "vetëm ngjyrat",
+        "vetëm figura",
+        "vetëm muzikë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Klik, tast, timer, sensor, etj.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "STEM-Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}
