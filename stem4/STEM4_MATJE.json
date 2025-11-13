@@ -1,0 +1,104 @@
+{
+  "lesson_id": "STEM4_MATJE",
+  "title_sq": "Matje & njësi në projekte",
+  "title_en": "Measurement & units",
+  "objective": "Nxënësi aplikon cm/m, g/kg, s/min në projekte.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Punë me vizore/peshore.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabela konvertimesh.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Njësitë bazë."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem_matje_sq.mp3",
+    "en": "assets/audio/stem_matje_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "10 cm = ? m",
+      "options_sq": [
+        "0.1",
+        "1",
+        "0.01",
+        "10"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "10 cm = 0.1 m.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "2 kg = ? g",
+      "options_sq": [
+        "200",
+        "2000",
+        "20",
+        "0.2"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "×1000 = 2000 g.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "60 sekonda = ? minuta",
+      "options_sq": [
+        "1",
+        "0.5",
+        "2",
+        "0.1"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "60 s = 1 min.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cila njësi mat kohën?",
+      "options_sq": [
+        "kg",
+        "cm",
+        "l",
+        "min"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "Minuta.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Për trashësinë e kartonit përdor:",
+      "options_sq": [
+        "metër",
+        "vizore cm",
+        "peshore",
+        "orë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Vizore cm/mm.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

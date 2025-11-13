@@ -1,0 +1,104 @@
+{
+  "lesson_id": "STEM4_QARKU",
+  "title_sq": "Qark i thjeshtë elektrik",
+  "title_en": "Simple electric circuit",
+  "objective": "Nxënësi kupton bateri→përçues→llambë (qark i mbyllur).",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Komplet 'battery+bulb'.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Skemë qarku.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Përçues vs izolues."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem_qark_sq.mp3",
+    "en": "assets/audio/stem_qark_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Llamba ndizet kur qarku është:",
+      "options_sq": [
+        "i hapur",
+        "i mbyllur",
+        "i vizatuar",
+        "i shuar"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Qark i mbyllur.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Cili është përçues?",
+      "options_sq": [
+        "druri",
+        "bakri",
+        "qelqi",
+        "goma"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Bakri përcjell rrymën.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Bateria:",
+      "options_sq": [
+        "prodhon dritë",
+        "ruan energji elektrike",
+        "është përçues",
+        "freskon ajrin"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Burim energjie.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Nëse këputet tela:",
+      "options_sq": [
+        "rritet tensioni",
+        "qarku hapet",
+        "ndizet më fort",
+        "nuk ndryshon"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Hapet qarku.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cili është izolues?",
+      "options_sq": [
+        "alumini",
+        "bakri",
+        "plastika",
+        "hekuri"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Plastika izolues.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

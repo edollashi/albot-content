@@ -1,0 +1,104 @@
+{
+  "lesson_id": "STEM4_ALG",
+  "title_sq": "Algoritmi & renditja e hapave",
+  "title_en": "Algorithm & sequencing",
+  "objective": "Nxënësi rendit hapa për të zgjidhur një detyrë.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Karton me hapa.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Diagramë me shigjeta.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Rëndësia e rendit të saktë."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem_alg_sq.mp3",
+    "en": "assets/audio/stem_alg_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Algoritmi është:",
+      "options_sq": [
+        "një lojë",
+        "listë hapash",
+        "një figurë",
+        "magji"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Hapa për zgjidhje.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Rendi i saktë për 'laj duart' është:",
+      "options_sq": [
+        "shpëlaj-sapun-ujë",
+        "ujë-sapun-shpëlaj",
+        "fshij-ujë-sapun",
+        "sapuni pas tharjes"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ujë → sapun → shpëlarje.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "'Sekuencë' në kodim do të thotë:",
+      "options_sq": [
+        "rend i urdhërave",
+        "ngjyrat",
+        "shpejtësia",
+        "muzika"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Urdhra në radhë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Shembull algoritmi:",
+      "options_sq": [
+        "recetë gatimi",
+        "vizatim",
+        "foto",
+        "këngë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Receta = hapa.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "'Bug' do të thotë:",
+      "options_sq": [
+        "muzikë",
+        "gabim",
+        "pallat",
+        "cilësi"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Gabim në program.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

@@ -1,0 +1,104 @@
+{
+  "lesson_id": "STEM4_SENSORE",
+  "title_sq": "Sensorë dhe aktuatorë",
+  "title_en": "Sensors & actuators",
+  "objective": "Nxënësi dallon hyrje (sensor) dhe dalje (aktuator).",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Arduino/Scratch demo.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Diagramë input↔output.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Dallimi input vs output."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem_sensore_sq.mp3",
+    "en": "assets/audio/stem_sensore_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cili është SENSOR?",
+      "options_sq": [
+        "LED",
+        "motor",
+        "buton",
+        "sirena"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Butoni jep hyrje.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "LED është:",
+      "options_sq": [
+        "sensor",
+        "aktuator",
+        "bateri",
+        "tel"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "LED dritë = dalje.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Shembull hyrje:",
+      "options_sq": [
+        "zile",
+        "motor",
+        "mikrofon",
+        "LED"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Mikrofoni merr tingull.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Në robot rrotat lëvizin nga:",
+      "options_sq": [
+        "sensor drite",
+        "motor",
+        "LED",
+        "bateri pa tel"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Aktuator.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cili sensor mat distancën?",
+      "options_sq": [
+        "ultratingull",
+        "LED",
+        "bateri",
+        "motor"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Sensor ultrasonik.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

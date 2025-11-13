@@ -1,0 +1,104 @@
+{
+  "lesson_id": "STEM4_IF_LOOP",
+  "title_sq": "Logjika: IF dhe cikli (loop)",
+  "title_en": "Logic: IF & loop",
+  "objective": "Nxënësi kupton kushtin IF dhe përsëritjen.",
+  "grade": 4,
+  "subject": "STEM",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Kartona kusht/loop.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Blloqe të vizatuara.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Kusht + përsëritje."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/stem_ifloop_sq.mp3",
+    "en": "assets/audio/stem_ifloop_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "'IF shi bie THEN merr çadër' do të thotë:",
+      "options_sq": [
+        "gjithmonë merr çadër",
+        "vetëm nëse bie shi",
+        "kurrë mos merr çadër",
+        "merre natën"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Kusht.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Cili është 'loop'?",
+      "options_sq": [
+        "ndodh një herë",
+        "përsëritje",
+        "ndryshim ngjyrash",
+        "muzikë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Përsëritje.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Shembull 'derisa' (while):",
+      "options_sq": [
+        "derisa kupa të mbushet",
+        "një herë",
+        "pa kusht",
+        "asnjë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Derisa kushti të plotësohet.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "'IF drita=jeshile THEN kalo' ndodh:",
+      "options_sq": [
+        "kurdo",
+        "kur është jeshile",
+        "kur është e kuqe",
+        "kurrë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Kushti i gjelbër.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cikli 'for' zakonisht:",
+      "options_sq": [
+        "numër i caktuar herësh",
+        "asnjëherë",
+        "një herë",
+        "vetëm natën"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Numër i caktuar.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}
