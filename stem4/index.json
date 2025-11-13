@@ -1,12 +1,12 @@
 [
   "STEM4_ALG.json",
-  "STEM4_QARKU.json",
-  "STEM4_IF_LOOP.json",
-  "STEM4_SENSORE.json",
-  "STEM4_MATJE.json",
-  "STEM4_TABELA.json",
-  "STEM4_FORCA.json",
   "STEM4_ENERGJIA.json",
+  "STEM4_FORCA.json",
+  "STEM4_IF_LOOP.json",
   "STEM4_MAKINAT.json",
+  "STEM4_MATJE.json",
+  "STEM4_QARKU.json",
+  "STEM4_SENSORE.json",
+  "STEM4_TABELA.json",
   "STEM4_VAR_EVENT.json"
 ]

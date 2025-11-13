@@ -2,22 +2,22 @@
   "lesson_id": "STEM4_MAKINAT",
   "title_sq": "Makinat e thjeshta",
   "title_en": "Simple machines",
-  "objective": "Nxënësi njeh levën, rrotën&boshtin, rrotëzën (pulley) dhe shpatin e pjerrët.",
+  "objective": "Nxënësi njeh levë, rrotë&bosht, rrotëzë (pulley), shpat të pjerrët; avantazh mekanik.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
   "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Leva me vizore dhe gomë.",
+      "text_sq": "Leva me vizore.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Skema e makinave të thjeshta.",
+      "text_sq": "Skema makinave.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Avantazhi mekanik bazik."
+      "text_sq": "Avantazh mekanik bazik."
     }
   },
   "audio": {
@@ -36,7 +36,7 @@
         "shishe"
       ],
       "answer_index": 0,
-      "explanation_sq": "Levë është makinë e thjeshtë.",
+      "explanation_sq": "Leva.",
       "difficulty": 0.2
     },
     {
@@ -58,13 +58,13 @@
       "type": "mcq",
       "prompt_sq": "Rrotëza (pulley) shërben për:",
       "options_sq": [
-        "ngrohje",
         "ndryshim drejtimi force",
         "dritë",
-        "tingull"
+        "tingull",
+        "ngrohje"
       ],
-      "answer_index": 1,
-      "explanation_sq": "Ndryshon drejtimin/forcën.",
+      "answer_index": 0,
+      "explanation_sq": "Ndryshon drejtimin/magnitudën.",
       "difficulty": 0.3
     },
     {
@@ -78,36 +78,92 @@
         "mikrofon"
       ],
       "answer_index": 0,
-      "explanation_sq": "Rampa është shpat i pjerrët.",
+      "explanation_sq": "Rampe.",
       "difficulty": 0.2
     },
     {
       "qid": "Q5",
       "type": "mcq",
-      "prompt_sq": "Leva kursen forcë kur pika e mbështetjes është:",
+      "prompt_sq": "Cila kursen forcë?",
       "options_sq": [
-        "shumë larg ngarkesës",
-        "shumë afër ngarkesës",
-        "në mes",
-        "nuk ka rëndësi"
+        "levë",
+        "libër",
+        "laps",
+        "tavolinë"
       ],
-      "answer_index": 1,
-      "explanation_sq": "Klasa 2/3 — afër ngarkesës.",
-      "difficulty": 0.4
+      "answer_index": 0,
+      "explanation_sq": "Avantazh mekanik.",
+      "difficulty": 0.3
     },
     {
       "qid": "Q6",
       "type": "mcq",
-      "prompt_sq": "Shumëzimi mekanik i një sistemi rrotëzash rreth:",
+      "prompt_sq": "Leva kursen forcë kur pika e mbështetjes është:",
       "options_sq": [
-        "0",
-        "1",
-        ">1",
-        "<1"
+        "afër ngarkesës",
+        "larg ngarkesës",
+        "pa rëndësi",
+        "në mes"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Klasë 2/3, afër ngarkesës.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Rrota&boshti është si:",
+      "options_sq": [
+        "kaush",
+        "vidhë",
+        "direkë me rrota",
+        "kub"
       ],
       "answer_index": 2,
-      "explanation_sq": "Pulley block rrit avantazhin.",
+      "explanation_sq": "Bosht + rrotë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Wedge (kunj/preh) dhe screw (vidhë) janë:",
+      "options_sq": [
+        "makina të thjeshta",
+        "instrumente muzikore",
+        "pije",
+        "mete"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Dy tipe të tjera.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Pulley me shumë rrotëza bën:",
+      "options_sq": [
+        "forcë më të madhe efektive",
+        "asgjë",
+        "frenim",
+        "zë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Avantazh >1.",
       "difficulty": 0.5
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Rampa e gjatë/ e butë:",
+      "options_sq": [
+        "kërkon më shumë forcë",
+        "më pak forcë por distancë më të madhe",
+        "nuk punon",
+        "s’ka kuptim"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Kompromis forcë/distancë.",
+      "difficulty": 0.4
     }
   ],
   "badges_on_complete": [

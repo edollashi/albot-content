@@ -2,102 +2,172 @@
   "lesson_id": "STEM4_IF_LOOP",
   "title_sq": "Logjika: IF dhe cikli (loop)",
   "title_en": "Logic: IF & loop",
-  "objective": "Nxënësi kupton kushtin IF dhe përsëritjen.",
+  "objective": "Nxënësi përdor kushtet IF/ELSE dhe cikle (for/while) në situata të thjeshta.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
-  "duration_est_min": 10,
+  "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Kartona kusht/loop.",
+      "text_sq": "Lojë me letra: kusht & përsëritje.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Blloqe të vizatuara.",
+      "text_sq": "Blloqe IF/ELSE/loop të vizatuara.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Kusht + përsëritje."
+      "text_sq": "Struktura vendimmarrjeje dhe përsëritjeje."
     }
   },
   "audio": {
-    "sq": "assets/audio/stem_ifloop_sq.mp3",
-    "en": "assets/audio/stem_ifloop_en.mp3"
+    "sq": "assets/audio/stem4_if_loop_sq.mp3",
+    "en": "assets/audio/stem4_if_loop_en.mp3"
   },
   "quiz": [
     {
       "qid": "Q1",
       "type": "mcq",
-      "prompt_sq": "'IF shi bie THEN merr çadër' do të thotë:",
+      "prompt_sq": "'IF shi THEN çadër' →",
       "options_sq": [
         "gjithmonë merr çadër",
         "vetëm nëse bie shi",
-        "kurrë mos merr çadër",
+        "kurrë mos merr",
         "merre natën"
       ],
       "answer_index": 1,
-      "explanation_sq": "Kusht.",
-      "difficulty": 0.3
+      "explanation_sq": "Aktivohet nga kushti.",
+      "difficulty": 0.2
     },
     {
       "qid": "Q2",
       "type": "mcq",
-      "prompt_sq": "Cili është 'loop'?",
+      "prompt_sq": "'Përsërit 5 herë' është:",
       "options_sq": [
-        "ndodh një herë",
-        "përsëritje",
-        "ndryshim ngjyrash",
-        "muzikë"
+        "IF",
+        "loop",
+        "variabël",
+        "event"
       ],
       "answer_index": 1,
-      "explanation_sq": "Përsëritje.",
+      "explanation_sq": "Loop = përsëritje.",
       "difficulty": 0.2
     },
     {
       "qid": "Q3",
       "type": "mcq",
-      "prompt_sq": "Shembull 'derisa' (while):",
+      "prompt_sq": "'else' do të thotë:",
       "options_sq": [
-        "derisa kupa të mbushet",
-        "një herë",
-        "pa kusht",
-        "asnjë"
+        "po ashtu",
+        "përndryshe",
+        "ndalo",
+        "përsërit"
       ],
-      "answer_index": 0,
-      "explanation_sq": "Derisa kushti të plotësohet.",
+      "answer_index": 1,
+      "explanation_sq": "Rruga alternative.",
       "difficulty": 0.3
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "'IF drita=jeshile THEN kalo' ndodh:",
+      "prompt_sq": "'while ka lapsa, shkruaj' është:",
       "options_sq": [
-        "kurdo",
-        "kur është jeshile",
-        "kur është e kuqe",
-        "kurrë"
+        "loop me numër fiks",
+        "loop me kusht",
+        "pa kuptim",
+        "event"
       ],
       "answer_index": 1,
-      "explanation_sq": "Kushti i gjelbër.",
-      "difficulty": 0.2
+      "explanation_sq": "Derisa kushti të bjerë.",
+      "difficulty": 0.3
     },
     {
       "qid": "Q5",
       "type": "mcq",
-      "prompt_sq": "Cikli 'for' zakonisht:",
+      "prompt_sq": "Cila strukturë bën pikë +1 çdo herë?",
       "options_sq": [
-        "numër i caktuar herësh",
-        "asnjëherë",
-        "një herë",
-        "vetëm natën"
+        "IF",
+        "for",
+        "else",
+        "koment"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'for' me inkrementim.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Cili është kusht i vërtetë?",
+      "options_sq": [
+        "5>9",
+        "3==3",
+        "10<2",
+        "0==1"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "3 baraz me 3.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh rrjedhën: IF e saktë → 'Bravo', ELSE → 'Provo përsëri'. Çfarë shfaqet kur përgjigjja është gabim?",
+      "options_sq": [
+        "Bravo",
+        "Provo përsëri",
+        "Asgjë",
+        "Përgjigje e rastësishme"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Shkon te dega ELSE.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "'break' në një loop bën:",
+      "options_sq": [
+        "nis nga fillimi",
+        "del nga loop",
+        "rrit shpejtësinë",
+        "shton ngjyra"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ndërpret loop-in.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "'continue' bën:",
+      "options_sq": [
+        "del nga loop",
+        "kalon te iteracioni tjetër",
+        "ndalon programin",
+        "ndryshon ngjyrën"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Skip te radhës.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Cili është kombinim i saktë?",
+      "options_sq": [
+        "IF + loop",
+        "IF + foto",
+        "loop + pikturë",
+        "foto + muzikë"
       ],
       "answer_index": 0,
-      "explanation_sq": "Numër i caktuar.",
-      "difficulty": 0.3
+      "explanation_sq": "Struktura bazë e logjikës.",
+      "difficulty": 0.2
     }
   ],
   "badges_on_complete": [
-    "Pilot"
+    "STEM-Pilot"
   ],
   "prerequisites": [],
   "version": 1

@@ -2,22 +2,22 @@
   "lesson_id": "STEM4_ENERGJIA",
   "title_sq": "Format e energjisë",
   "title_en": "Forms of energy",
-  "objective": "Nxënësi dallon energjinë e dritës, nxehtësisë, tingullit dhe elektrike.",
+  "objective": "Nxënësi dallon dritë, nxehtësi, tingull, elektrike; konvertime dhe burime.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
   "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Shiko burime reale (llambë, radio, ngrohës).",
+      "text_sq": "Shiko pajisje reale.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Tabelë burim→formë energjie.",
+      "text_sq": "Tabelë burim→formë.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Konvertime energjie; rinovueshme vs jo."
+      "text_sq": "Burime, konvertime, potenciale/kinetike (bazë)."
     }
   },
   "audio": {
@@ -28,12 +28,12 @@
     {
       "qid": "Q1",
       "type": "mcq",
-      "prompt_sq": "Cili është burim DRITE?",
+      "prompt_sq": "Burim DRITE:",
       "options_sq": [
         "Dielli",
-        "fshesa",
         "peshorja",
-        "libri"
+        "libri",
+        "goma"
       ],
       "answer_index": 0,
       "explanation_sq": "Dielli jep dritë.",
@@ -42,72 +42,128 @@
     {
       "qid": "Q2",
       "type": "mcq",
-      "prompt_sq": "Ngrohësi jep energji:",
+      "prompt_sq": "Ngrohësi jep:",
       "options_sq": [
-        "tingulli",
-        "nxehtësia",
-        "drita",
+        "tingull",
+        "nxehtësi",
+        "dritë",
         "kimike"
       ],
       "answer_index": 1,
-      "explanation_sq": "Ngrohje = nxehtësi.",
+      "explanation_sq": "Nxehtësi.",
       "difficulty": 0.2
     },
     {
       "qid": "Q3",
       "type": "mcq",
-      "prompt_sq": "Cila pajisje prodhon tingull?",
+      "prompt_sq": "Radio prodhon:",
       "options_sq": [
-        "radio",
-        "fener",
-        "bateri",
-        "panel diellor"
+        "tingull",
+        "dritë",
+        "erë",
+        "kimikate"
       ],
       "answer_index": 0,
-      "explanation_sq": "Radio = tingull.",
+      "explanation_sq": "Audio.",
       "difficulty": 0.2
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "Energjia elektrike mund të kthehet në:",
+      "prompt_sq": "Elektriciteti kthehet në:",
       "options_sq": [
         "vetëm dritë",
         "vetëm nxehtësi",
-        "shumë forma (dritë, nxehtësi, lëvizje)",
+        "shumë forma",
         "asgjë"
       ],
       "answer_index": 2,
-      "explanation_sq": "Konvertime energjie.",
+      "explanation_sq": "Konvertime të ndryshme.",
       "difficulty": 0.3
     },
     {
       "qid": "Q5",
       "type": "mcq",
-      "prompt_sq": "Burim i rinovueshëm:",
+      "prompt_sq": "Rinovueshme:",
       "options_sq": [
-        "qymyri",
         "era",
+        "qymyri",
         "nafta",
         "gazi"
       ],
-      "answer_index": 1,
+      "answer_index": 0,
       "explanation_sq": "Era rinovueshme.",
       "difficulty": 0.3
     },
     {
       "qid": "Q6",
       "type": "mcq",
-      "prompt_sq": "Paneli diellor shndërron:",
+      "prompt_sq": "Bateria ka energji:",
       "options_sq": [
-        "dritë → elektricitet",
-        "ujë → gaz",
-        "tingull → dritë",
-        "nxehtësi → ftohtë"
+        "kimike",
+        "drite",
+        "ajri",
+        "tingulli"
       ],
       "answer_index": 0,
-      "explanation_sq": "PV: dritë→energji elektrike.",
+      "explanation_sq": "Kimike → elektrike.",
       "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Panel diellor bën:",
+      "options_sq": [
+        "dritë→elektricitet",
+        "ujë→gaz",
+        "tingull→dritë",
+        "nxehtësi→ftohtë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "PV efekt.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Tingulli udhëton në:",
+      "options_sq": [
+        "vakum",
+        "ajër/ujë",
+        "asgjë",
+        "vetëm dritë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Kërkon medium.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Energjia e ruajtur quhet:",
+      "options_sq": [
+        "kinetike",
+        "potenciale",
+        "muzikore",
+        "vizuale"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Potenciale.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Cila pajisje jep DRITË nga elektriciteti?",
+      "options_sq": [
+        "rezistencë",
+        "LED",
+        "motor",
+        "sirena"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "LED = dritë.",
+      "difficulty": 0.2
     }
   ],
   "badges_on_complete": [

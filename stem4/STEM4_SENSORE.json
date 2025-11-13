@@ -2,14 +2,14 @@
   "lesson_id": "STEM4_SENSORE",
   "title_sq": "Sensorë dhe aktuatorë",
   "title_en": "Sensors & actuators",
-  "objective": "Nxënësi dallon hyrje (sensor) dhe dalje (aktuator).",
+  "objective": "Nxënësi dallon input (sensor) dhe output (aktuator) dhe i lidh me shembuj.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
-  "duration_est_min": 10,
+  "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Arduino/Scratch demo.",
+      "text_sq": "Set me buton, LED, motor.",
       "image": ""
     },
     "pictorial": {
@@ -17,12 +17,12 @@
       "image": ""
     },
     "abstract": {
-      "text_sq": "Dallimi input vs output."
+      "text_sq": "Lidh sensorët me aktuatorët (shembuj)."
     }
   },
   "audio": {
-    "sq": "assets/audio/stem_sensore_sq.mp3",
-    "en": "assets/audio/stem_sensore_en.mp3"
+    "sq": "assets/audio/stem4_sensore_sq.mp3",
+    "en": "assets/audio/stem4_sensore_en.mp3"
   },
   "quiz": [
     {
@@ -33,7 +33,7 @@
         "LED",
         "motor",
         "buton",
-        "sirena"
+        "zile"
       ],
       "answer_index": 2,
       "explanation_sq": "Butoni jep hyrje.",
@@ -45,40 +45,40 @@
       "prompt_sq": "LED është:",
       "options_sq": [
         "sensor",
-        "aktuator",
+        "aktuator (dalje)",
         "bateri",
         "tel"
       ],
       "answer_index": 1,
-      "explanation_sq": "LED dritë = dalje.",
+      "explanation_sq": "LED = dalje dritë.",
       "difficulty": 0.3
     },
     {
       "qid": "Q3",
       "type": "mcq",
-      "prompt_sq": "Shembull hyrje:",
+      "prompt_sq": "Mikrofoni është:",
       "options_sq": [
-        "zile",
-        "motor",
-        "mikrofon",
-        "LED"
+        "hyrje",
+        "dalje",
+        "burim nxehtësie",
+        "bateri"
       ],
-      "answer_index": 2,
-      "explanation_sq": "Mikrofoni merr tingull.",
+      "answer_index": 0,
+      "explanation_sq": "Merr tingull (input).",
       "difficulty": 0.3
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "Në robot rrotat lëvizin nga:",
+      "prompt_sq": "Motorri është:",
       "options_sq": [
+        "hyrje",
+        "dalje (lëvizje)",
         "sensor drite",
-        "motor",
-        "LED",
-        "bateri pa tel"
+        "sensor distance"
       ],
       "answer_index": 1,
-      "explanation_sq": "Aktuator.",
+      "explanation_sq": "Aktuator lëvizje.",
       "difficulty": 0.3
     },
     {
@@ -92,12 +92,82 @@
         "motor"
       ],
       "answer_index": 0,
-      "explanation_sq": "Sensor ultrasonik.",
+      "explanation_sq": "Ultrasonik.",
       "difficulty": 0.3
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Shembull çift i saktë: sensor→aktuator",
+      "options_sq": [
+        "buton→LED",
+        "LED→motor",
+        "motor→mikrofon",
+        "bateri→buzzer"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Buton ndez LED.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Sensor drite ‘sheh’…",
+      "options_sq": [
+        "ngjyrë",
+        "shkëlqim/dritë",
+        "zë",
+        "erë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Mat intensitetin e dritës.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Zile/buzzer është:",
+      "options_sq": [
+        "hyrje",
+        "dalje audio",
+        "sensor",
+        "bateri"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Gjeneron tingull.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Termometri është:",
+      "options_sq": [
+        "sensor temperature",
+        "aktuator nxehtësie",
+        "motor",
+        "LED"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Mat temperaturën.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Buton i shtypur shkakton:",
+      "options_sq": [
+        "event",
+        "foto",
+        "ngjyrë",
+        "fletë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Ngjarje (event).",
+      "difficulty": 0.2
     }
   ],
   "badges_on_complete": [
-    "Pilot"
+    "STEM-Pilot"
   ],
   "prerequisites": [],
   "version": 1

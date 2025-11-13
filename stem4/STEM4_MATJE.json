@@ -2,27 +2,27 @@
   "lesson_id": "STEM4_MATJE",
   "title_sq": "Matje & njësi në projekte",
   "title_en": "Measurement & units",
-  "objective": "Nxënësi aplikon cm/m, g/kg, s/min në projekte.",
+  "objective": "Nxënësi përdor cm/m, g/kg, s/min dhe mendon për shpejtësi si largësi/kohë.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
-  "duration_est_min": 10,
+  "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Punë me vizore/peshore.",
+      "text_sq": "Punë me vizore/peshore/orsh.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Tabela konvertimesh.",
+      "text_sq": "Tabelë konvertimesh.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Njësitë bazë."
+      "text_sq": "Koncepte: konvertime, shpejtësi bazë."
     }
   },
   "audio": {
-    "sq": "assets/audio/stem_matje_sq.mp3",
-    "en": "assets/audio/stem_matje_en.mp3"
+    "sq": "assets/audio/stem4_matje_sq.mp3",
+    "en": "assets/audio/stem4_matje_en.mp3"
   },
   "quiz": [
     {
@@ -78,7 +78,7 @@
         "min"
       ],
       "answer_index": 3,
-      "explanation_sq": "Minuta.",
+      "explanation_sq": "minuta mat kohën.",
       "difficulty": 0.2
     },
     {
@@ -94,10 +94,80 @@
       "answer_index": 1,
       "explanation_sq": "Vizore cm/mm.",
       "difficulty": 0.3
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "1.5 m = ? cm",
+      "options_sq": [
+        "150",
+        "15",
+        "1,500",
+        "105"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "1.5×100=150 cm.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "500 ml = ? l",
+      "options_sq": [
+        "0.05",
+        "0.5",
+        "5",
+        "50"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "500/1000=0.5 l.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Shpejtësia ≈",
+      "options_sq": [
+        "kohë/largësi",
+        "largësi/kohë",
+        "kohë×largësi",
+        "asnjë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "v = d/t.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Cila mat masën?",
+      "options_sq": [
+        "kg",
+        "cm",
+        "l",
+        "s"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "kg = masë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Cila pajisje mat peshën?",
+      "options_sq": [
+        "termometër",
+        "vizore",
+        "peshore",
+        "kohëmatës"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Peshore = masë/peshë.",
+      "difficulty": 0.2
     }
   ],
   "badges_on_complete": [
-    "Pilot"
+    "STEM-Pilot"
   ],
   "prerequisites": [],
   "version": 1

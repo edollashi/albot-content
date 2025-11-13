@@ -2,27 +2,27 @@
   "lesson_id": "STEM4_ALG",
   "title_sq": "Algoritmi & renditja e hapave",
   "title_en": "Algorithm & sequencing",
-  "objective": "Nxënësi rendit hapa për të zgjidhur një detyrë.",
+  "objective": "Nxënësi rendit hapa dhe kupton gabimet (bug) në procedura të thjeshta.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
-  "duration_est_min": 10,
+  "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Karton me hapa.",
+      "text_sq": "Kopjo hapa nga receta e preferuar.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Diagramë me shigjeta.",
+      "text_sq": "Diagramë kutish me shigjeta.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Rëndësia e rendit të saktë."
+      "text_sq": "Defino: algoritëm, sekuencë, IF, loop; gjej & ndreq gabime."
     }
   },
   "audio": {
-    "sq": "assets/audio/stem_alg_sq.mp3",
-    "en": "assets/audio/stem_alg_en.mp3"
+    "sq": "assets/audio/stem4_alg_sq.mp3",
+    "en": "assets/audio/stem4_alg_en.mp3"
   },
   "quiz": [
     {
@@ -30,24 +30,24 @@
       "type": "mcq",
       "prompt_sq": "Algoritmi është:",
       "options_sq": [
-        "një lojë",
+        "lojë",
         "listë hapash",
-        "një figurë",
-        "magji"
+        "figurë",
+        "muzikë"
       ],
       "answer_index": 1,
-      "explanation_sq": "Hapa për zgjidhje.",
+      "explanation_sq": "Algoritmi = hapa të renditur.",
       "difficulty": 0.2
     },
     {
       "qid": "Q2",
       "type": "mcq",
-      "prompt_sq": "Rendi i saktë për 'laj duart' është:",
+      "prompt_sq": "Rendi i saktë për 'laj duart':",
       "options_sq": [
-        "shpëlaj-sapun-ujë",
+        "sapun-ujë-shpëlaj",
         "ujë-sapun-shpëlaj",
-        "fshij-ujë-sapun",
-        "sapuni pas tharjes"
+        "shpëlaj-pa ujë",
+        "sapun pas tharjes"
       ],
       "answer_index": 1,
       "explanation_sq": "Ujë → sapun → shpëlarje.",
@@ -56,48 +56,118 @@
     {
       "qid": "Q3",
       "type": "mcq",
-      "prompt_sq": "'Sekuencë' në kodim do të thotë:",
+      "prompt_sq": "'Bug' do të thotë:",
       "options_sq": [
-        "rend i urdhërave",
-        "ngjyrat",
-        "shpejtësia",
-        "muzika"
+        "gabim",
+        "ngjyrë",
+        "ritëm",
+        "fotografi"
       ],
       "answer_index": 0,
-      "explanation_sq": "Urdhra në radhë.",
-      "difficulty": 0.3
+      "explanation_sq": "Bug = gabim në hapa/kod.",
+      "difficulty": 0.2
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "Shembull algoritmi:",
+      "prompt_sq": "'Nëse bie shi, merr çadër' është:",
       "options_sq": [
-        "recetë gatimi",
-        "vizatim",
-        "foto",
-        "këngë"
+        "sekuencë",
+        "kusht (IF)",
+        "loop",
+        "koment"
       ],
-      "answer_index": 0,
-      "explanation_sq": "Receta = hapa.",
-      "difficulty": 0.2
+      "answer_index": 1,
+      "explanation_sq": "IF = kusht.",
+      "difficulty": 0.3
     },
     {
       "qid": "Q5",
       "type": "mcq",
-      "prompt_sq": "'Bug' do të thotë:",
+      "prompt_sq": "Cili është shembull algoritmi?",
       "options_sq": [
-        "muzikë",
-        "gabim",
-        "pallat",
-        "cilësi"
+        "recetë gatimi",
+        "pikturë",
+        "foto",
+        "këngë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Receta ka hapa.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "'Përsërit 10 herë' është:",
+      "options_sq": [
+        "IF",
+        "loop",
+        "variabël",
+        "event"
       ],
       "answer_index": 1,
-      "explanation_sq": "Gabim në program.",
+      "explanation_sq": "Loop = përsëritje.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Cilin hap duhet të ndreqësh? 'hap dera → trokit'",
+      "options_sq": [
+        "është mirë",
+        "duhet 'trokit → hap dera'",
+        "hiq trokitjen",
+        "shto muzikë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Troket para se të hapësh.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Kush është **jo** shembull algoritmi?",
+      "options_sq": [
+        "Udhëzimi i lojës",
+        "Plani i punës",
+        "Lista e pazareve",
+        "Foto e malit"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "Foto s’ka hapa.",
       "difficulty": 0.3
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Rendi i hapave quhet:",
+      "options_sq": [
+        "sekuencë",
+        "stil",
+        "kohëzgjatje",
+        "formë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Sequence = rend.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Pse testojmë algoritmin?",
+      "options_sq": [
+        "për ngjyra",
+        "për muzikë",
+        "për të gjetur gabime",
+        "për të bërë foto"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Testimi zbulon bug-et.",
+      "difficulty": 0.2
     }
   ],
   "badges_on_complete": [
-    "Pilot"
+    "STEM-Pilot"
   ],
   "prerequisites": [],
   "version": 1

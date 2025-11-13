@@ -2,14 +2,14 @@
   "lesson_id": "STEM4_VAR_EVENT",
   "title_sq": "Variabla & ngjarje (events)",
   "title_en": "Variables & events",
-  "objective": "Nxënësi përdor variabël për pikë dhe ngjarje (p.sh. buton shtypur).",
+  "objective": "Nxënësi përdor variabla për pikë dhe evente për të reaguar ndaj përdoruesit/kohës.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
   "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Loja me butona (micro:bit/MakeCode).",
+      "text_sq": "Loja me butona.",
       "image": ""
     },
     "pictorial": {
@@ -17,7 +17,7 @@
       "image": ""
     },
     "abstract": {
-      "text_sq": "Variabla (ruajtje) + ngjarje (shkaktim)."
+      "text_sq": "Inicializim + evente të zakonshme."
     }
   },
   "audio": {
@@ -30,13 +30,13 @@
       "type": "mcq",
       "prompt_sq": "Variabla shërben për:",
       "options_sq": [
-        "ruajtur një vlerë",
+        "ruajtur vlera",
         "vizatuar",
         "ngjyrosur",
         "fshirë skedarin"
       ],
       "answer_index": 0,
-      "explanation_sq": "Ruajtje vlerash (p.sh. pikë).",
+      "explanation_sq": "Memorizim vlerash.",
       "difficulty": 0.3
     },
     {
@@ -45,18 +45,18 @@
       "prompt_sq": "'on Button A pressed' është:",
       "options_sq": [
         "variabël",
-        "ngjarje (event)",
+        "ngjarje",
         "loop",
         "kusht"
       ],
       "answer_index": 1,
-      "explanation_sq": "Ngjarje që shkakton kod.",
+      "explanation_sq": "Event.",
       "difficulty": 0.3
     },
     {
       "qid": "Q3",
       "type": "mcq",
-      "prompt_sq": "Për të rritur pikët +1 bën:",
+      "prompt_sq": "Rrit pikët +1:",
       "options_sq": [
         "pikë = pikë + 1",
         "pikë = 1",
@@ -64,21 +64,21 @@
         "pikë = 0"
       ],
       "answer_index": 0,
-      "explanation_sq": "Inkrementim.",
+      "explanation_sq": "Inkrement.",
       "difficulty": 0.3
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "Cili është shembull i mirë i eventit?",
+      "prompt_sq": "Shembull eventi:",
       "options_sq": [
         "kur koha mbaron",
-        "ngjyra blu",
         "numri 7",
-        "një libër"
+        "ngjyra blu",
+        "foto"
       ],
       "answer_index": 0,
-      "explanation_sq": "Event timer/koha mbaron.",
+      "explanation_sq": "Timer event.",
       "difficulty": 0.3
     },
     {
@@ -88,25 +88,81 @@
       "options_sq": [
         "rrite +1",
         "ktheje në 0",
-        "shumëzoje me 10",
+        "shumëzo me 10",
         "nuk ndrysho"
       ],
       "answer_index": 1,
-      "explanation_sq": "Rivendos 0.",
+      "explanation_sq": "Zero.",
       "difficulty": 0.2
     },
     {
       "qid": "Q6",
       "type": "mcq",
+      "prompt_sq": "Variabla mund të jetë:",
+      "options_sq": [
+        "vetëm numër",
+        "numër ose tekst",
+        "vetëm foto",
+        "vetëm tingull"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Tipa të thjeshtë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
       "prompt_sq": "Ngjarjet lidhen me:",
       "options_sq": [
-        "veprime përdoruesi ose kohë",
-        "vetëm ngjyrat",
+        "klik/buton, sensor, kohë",
+        "vetëm ngjyra",
         "vetëm figura",
         "vetëm muzikë"
       ],
       "answer_index": 0,
-      "explanation_sq": "Klik, tast, timer, sensor, etj.",
+      "explanation_sq": "Burime eventesh.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Në fillim të lojës është mirë:",
+      "options_sq": [
+        "të inicializosh pikët",
+        "të fshish kodin",
+        "të ndalosh kohën",
+        "asgjë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Vendos pikët = 0.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Ruajtja e pikëve kërkon:",
+      "options_sq": [
+        "variabël",
+        "fotografi",
+        "muzikë",
+        "mjegull"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Variabël e dedikuar.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Rendi i ngjarjeve i quhet:",
+      "options_sq": [
+        "sekuencë",
+        "foto",
+        "pikturë",
+        "dritë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Rend i aktivizimeve.",
       "difficulty": 0.3
     }
   ],

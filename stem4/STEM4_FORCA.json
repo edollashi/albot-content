@@ -2,22 +2,22 @@
   "lesson_id": "STEM4_FORCA",
   "title_sq": "Forca & lëvizja (shty/terhiq, fërkimi)",
   "title_en": "Force & motion",
-  "objective": "Nxënësi kupton shty/terhiq, rolin e fërkimit dhe shpejtësinë.",
+  "objective": "Nxënësi kupton shty/terhiq, fërkimin, shpatin e pjerrët dhe shpejtësinë.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
   "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Shty/terhiq objekte (kuti).",
+      "text_sq": "Shty/terhiq objekte reale.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Skemë forcë→lëvizje; fërkimi.",
+      "text_sq": "Skema forca↔lëvizje; fërkimi.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Forcë, drejtim, fërkim, shpat i pjerrët."
+      "text_sq": "Forca, balancim, rezistencë, pjerrësi."
     }
   },
   "audio": {
@@ -31,26 +31,26 @@
       "prompt_sq": "Forca 'shty' bën trupin të:",
       "options_sq": [
         "ndalet",
-        "kthehet në gaz",
-        "lëvizë ose ndryshojë shpejtësi",
-        "ngrihet në temperaturë"
+        "ndërrojë lëvizje/shpejtësi",
+        "shkrihet",
+        "ftohet"
       ],
-      "answer_index": 2,
-      "explanation_sq": "Forca ndryshon gjendjen e lëvizjes.",
+      "answer_index": 1,
+      "explanation_sq": "Ndryshon lëvizjen.",
       "difficulty": 0.3
     },
     {
       "qid": "Q2",
       "type": "mcq",
-      "prompt_sq": "Fërkimi zakonisht:",
+      "prompt_sq": "Fërkimi:",
       "options_sq": [
-        "rrit lëvizjen",
+        "ndihmon gjithmonë",
         "kundërshton lëvizjen",
-        "s’e ndikon",
-        "bën trupin të fluturojë"
+        "nuk ndikon",
+        "shton ngjyrë"
       ],
       "answer_index": 1,
-      "explanation_sq": "Fërkimi frenon.",
+      "explanation_sq": "Frenon lëvizjen.",
       "difficulty": 0.2
     },
     {
@@ -59,27 +59,27 @@
       "prompt_sq": "Topi rrokulliset më lehtë në:",
       "options_sq": [
         "tapet",
-        "bar të lagësht",
+        "rërë",
         "parket të lëmuar",
-        "rërë"
+        "bar të lagësht"
       ],
       "answer_index": 2,
-      "explanation_sq": "Fërkim më i vogël.",
+      "explanation_sq": "Fërkim i vogël.",
       "difficulty": 0.3
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "Shpejtësia rritet kur:",
+      "prompt_sq": "Shpat i pjerrët:",
       "options_sq": [
-        "forca rritet në të njëjtin drejtim",
-        "forca është zero",
-        "forca kundërshton lëvizjen",
-        "trupi fle"
+        "rrit forcën",
+        "ul forcën e nevojshme",
+        "s’bën gjë",
+        "rrit peshën"
       ],
-      "answer_index": 0,
-      "explanation_sq": "Forcë më e madhe → rrit shpejtësinë.",
-      "difficulty": 0.2
+      "answer_index": 1,
+      "explanation_sq": "Avantazh mekanik.",
+      "difficulty": 0.4
     },
     {
       "qid": "Q5",
@@ -89,24 +89,80 @@
         "shtyj derën",
         "tërhiq litarin",
         "shtyj karrocën",
-        "shtyj topin"
+        "shtyj portën"
       ],
       "answer_index": 1,
-      "explanation_sq": "Tërheqje drejt vetes.",
+      "explanation_sq": "Drejt vetes.",
       "difficulty": 0.2
     },
     {
       "qid": "Q6",
       "type": "mcq",
-      "prompt_sq": "Shpat i pjerrët ul:",
+      "prompt_sq": "Forca më e madhe në të njëjtin drejtim:",
       "options_sq": [
-        "forcën e nevojshme",
-        "fërkimin",
-        "peshën",
-        "gjatësinë"
+        "rrit shpejtësinë",
+        "ul shpejtësinë",
+        "nuk ndryshon",
+        "ndalon gjithçka"
       ],
       "answer_index": 0,
-      "explanation_sq": "Për punë të njëjtë, forcë më e vogël.",
+      "explanation_sq": "Akseleron më shumë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Kur forcat janë të balancuara:",
+      "options_sq": [
+        "lëvizje ndryshon",
+        "ngrin (s’ndryshon)",
+        "shpejtësi rritet",
+        "forma ndryshon"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "S’ka ndryshim neto.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Lubrifikanti (vaj) bën:",
+      "options_sq": [
+        "rrit fërkimin",
+        "ul fërkimin",
+        "asgjë",
+        "ngrin ujë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Zvogelon fërkimin.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Si e rrit zvarritja e ajrit?",
+      "options_sq": [
+        "ngadalëson lëvizjen",
+        "rrit shpejtësinë",
+        "nuk ndikon",
+        "e kthen në gaz"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Rezistencë e lëvizjes.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Njësia e shpejtësisë (bazë):",
+      "options_sq": [
+        "m/s",
+        "kg",
+        "l",
+        "N"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Metra për sekondë.",
       "difficulty": 0.4
     }
   ],

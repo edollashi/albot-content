@@ -2,27 +2,27 @@
   "lesson_id": "STEM4_QARKU",
   "title_sq": "Qark i thjeshtë elektrik",
   "title_en": "Simple electric circuit",
-  "objective": "Nxënësi kupton bateri→përçues→llambë (qark i mbyllur).",
+  "objective": "Nxënësi kupton qarkun e mbyllur, përçues/izolues dhe simbolet bazë.",
   "grade": 4,
   "subject": "STEM",
   "locale_default": "sq",
-  "duration_est_min": 10,
+  "duration_est_min": 12,
   "cpa": {
     "concrete": {
-      "text_sq": "Komplet 'battery+bulb'.",
+      "text_sq": "Komplet bateri+llambë+tela.",
       "image": ""
     },
     "pictorial": {
-      "text_sq": "Skemë qarku.",
+      "text_sq": "Skemë e thjeshtë me simbole.",
       "image": ""
     },
     "abstract": {
-      "text_sq": "Përçues vs izolues."
+      "text_sq": "Qark i mbyllur, seri/parallel (bazë), përçues vs izolues."
     }
   },
   "audio": {
-    "sq": "assets/audio/stem_qark_sq.mp3",
-    "en": "assets/audio/stem_qark_en.mp3"
+    "sq": "assets/audio/stem4_qarku_sq.mp3",
+    "en": "assets/audio/stem4_qarku_en.mp3"
   },
   "quiz": [
     {
@@ -36,7 +36,7 @@
         "i shuar"
       ],
       "answer_index": 1,
-      "explanation_sq": "Qark i mbyllur.",
+      "explanation_sq": "Duhet qark i mbyllur.",
       "difficulty": 0.3
     },
     {
@@ -56,48 +56,118 @@
     {
       "qid": "Q3",
       "type": "mcq",
-      "prompt_sq": "Bateria:",
+      "prompt_sq": "Cili është izolues?",
       "options_sq": [
-        "prodhon dritë",
-        "ruan energji elektrike",
-        "është përçues",
-        "freskon ajrin"
+        "alumini",
+        "hekuri",
+        "plastika",
+        "bakri"
       ],
-      "answer_index": 1,
-      "explanation_sq": "Burim energjie.",
+      "answer_index": 2,
+      "explanation_sq": "Plastika nuk përcjell.",
       "difficulty": 0.3
     },
     {
       "qid": "Q4",
       "type": "mcq",
-      "prompt_sq": "Nëse këputet tela:",
+      "prompt_sq": "Nëse telit i prishet lidhja:",
       "options_sq": [
-        "rritet tensioni",
-        "qarku hapet",
-        "ndizet më fort",
-        "nuk ndryshon"
+        "rreth i mbyllur",
+        "qark i hapur",
+        "tension rritet",
+        "ndizet më fort"
       ],
       "answer_index": 1,
-      "explanation_sq": "Hapet qarku.",
+      "explanation_sq": "Qarku hapet → s’ka rrymë.",
       "difficulty": 0.3
     },
     {
       "qid": "Q5",
       "type": "mcq",
-      "prompt_sq": "Cili është izolues?",
+      "prompt_sq": "Simboli (—/ —) përfaqëson:",
       "options_sq": [
-        "alumini",
-        "bakri",
-        "plastika",
-        "hekuri"
+        "bateri",
+        "llambë",
+        "ndërprerës",
+        "rezistor"
       ],
-      "answer_index": 2,
-      "explanation_sq": "Plastika izolues.",
+      "answer_index": 0,
+      "explanation_sq": "Dy pllaka = bateri.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Ndërprerësi **ON** do të thotë:",
+      "options_sq": [
+        "qark i hapur",
+        "qark i mbyllur",
+        "pa energji",
+        "llamba fiket"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "ON mbyll qarkun.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Cili kombinim ndez llambën?",
+      "options_sq": [
+        "bateri+tel+llambë (qark i mbyllur)",
+        "bateri + llambë pa tela",
+        "vetëm tel",
+        "vetëm bateri"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Duhet qark i mbyllur me tela.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Kur vendosim dy llamba **në seri**:",
+      "options_sq": [
+        "ndizen më fort",
+        "zakonisht më dobët",
+        "e njëjta fortësi",
+        "nuk ndizet"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Tensioni ndahet në seri.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Bateria është burim:",
+      "options_sq": [
+        "drite",
+        "energji elektrike",
+        "tingulli",
+        "nxehtësie"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Burim elektrik.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "Telat duhet të jenë:",
+      "options_sq": [
+        "plastikë të pastër",
+        "bakër të veshur me izolues",
+        "dru i hollë",
+        "letër"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Përçues (bakër) + izolim jashtë.",
       "difficulty": 0.3
     }
   ],
   "badges_on_complete": [
-    "Pilot"
+    "STEM-Pilot"
   ],
   "prerequisites": [],
   "version": 1
