@@ -1,0 +1,104 @@
+{
+  "lesson_id": "ALB4_PIKESIMI",
+  "title_sq": "Shenjat e pikësimit",
+  "title_en": "Punctuation",
+  "objective": "Nxënësi përdor pikën, presjen dhe pikëpyetjen.",
+  "grade": 4,
+  "subject": "Albanian",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Kartela me shembuj.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabela e shenjave: . , ? !",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Rregulla bazë të pikësimit."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/alb_pikesimi_sq.mp3",
+    "en": "assets/audio/alb_pikesimi_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cila fjali mbaron me pikëpyetje?",
+      "options_sq": [
+        "Ku shkon",
+        "Ku shkon?",
+        "Shkoj në shkollë.",
+        "Shkojmë!"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Pyetje → '?'.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Presja përdoret për:",
+      "options_sq": [
+        "mbarim fjalie",
+        "ndarje elementësh",
+        "pyetje",
+        "asgjë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Listat/thirrjet.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh variantin e saktë:",
+      "options_sq": [
+        "Po, Ardiani, erdhi.",
+        "Po Ardiani erdhi",
+        "Po Ardiani, erdhi,",
+        "Po, Ardiani erdhi?"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Thirrja ndahet me presje.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Fjalia ndjenjore mbaron zakonisht me:",
+      "options_sq": [
+        "pikë",
+        "pikëçuditëse",
+        "presje",
+        "dy pika"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'!'",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Shkruaj drejt:",
+      "options_sq": [
+        "Mirëmëngjes si je?",
+        "Mirëmëngjes! Si je?",
+        "Mirëmëngjes. si je?",
+        "Mirëmëngjes si je."
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Dy fjali të ndara.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

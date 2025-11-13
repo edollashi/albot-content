@@ -1,0 +1,104 @@
+{
+  "lesson_id": "ALB4_EMRI",
+  "title_sq": "Emri (Nouns)",
+  "title_en": "Nouns",
+  "objective": "Nxënësi dallon emrat dhe numrin njëjës/shumës.",
+  "grade": 4,
+  "subject": "Albanian",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Përdor karta me emra gjërash/vegjesh.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabela njëjës↔shumës.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Rregullat bazë: emri emërton qenie/gjëra; forma e shquar/pashquar."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/alb_emri_sq.mp3",
+    "en": "assets/audio/alb_emri_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cila fjalë është EMËR?",
+      "options_sq": [
+        "vrapoj",
+        "libër",
+        "shpejt",
+        "i bukur"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'libër' është emër (gjë).",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh shumësin e saktë: 'fëmijë' →",
+      "options_sq": [
+        "fëmijt",
+        "fëmijët",
+        "fëmijat",
+        "fëmijëtë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Forma e saktë: 'fëmijët'.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Cili është njëjës?",
+      "options_sq": [
+        "shkolla",
+        "shkollat",
+        "shkollave",
+        "shkollash"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "'shkolla' është njëjës i shquar.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Gjej emrin në fjali: 'Nxënësi lexon shpejt.'",
+      "options_sq": [
+        "lexon",
+        "shpejt",
+        "Nxënësi",
+        "."
+      ],
+      "answer_index": 2,
+      "explanation_sq": "'Nxënësi' është emër.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cila është formë e pashquar?",
+      "options_sq": [
+        "mësuesi",
+        "mësuesit",
+        "mësues",
+        "mësuesin"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "'mësues' = pashquar.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

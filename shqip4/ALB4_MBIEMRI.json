@@ -1,0 +1,104 @@
+{
+  "lesson_id": "ALB4_MBIEMRI",
+  "title_sq": "Mbiemri (Adjectives)",
+  "title_en": "Adjectives",
+  "objective": "Nxënësi dallon mbiemrin dhe lidhjen me emrin.",
+  "grade": 4,
+  "subject": "Albanian",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Foto me objekte për t’i cilësuar.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Kornizë 'emër + mbiemër'.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Mbiemri cilëson emrin; pajtohet në gjini/numër."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/alb_mbiemri_sq.mp3",
+    "en": "assets/audio/alb_mbiemri_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cila është MBIEMËR?",
+      "options_sq": [
+        "libër",
+        "i rëndë",
+        "vrapoj",
+        "dritare"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'i rëndë' cilëson emrin.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "'mal ____' (plotëso me mbiemër)",
+      "options_sq": [
+        "luan",
+        "i lartë",
+        "lexon",
+        "rri"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'i lartë' cilëson 'mal'.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Gjej çiftin emër+mbiemër:",
+      "options_sq": [
+        "flet shpejt",
+        "libër i ri",
+        "unë shkruaj",
+        "shumë bukur"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'libër i ri'.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cila nuk është mbiemër?",
+      "options_sq": [
+        "i bukur",
+        "e kuqe",
+        "i gjatë",
+        "këndo"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "'këndo' është folje.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Në fjalinë 'Shtëpia e re është e pastër', mbiemrat janë:",
+      "options_sq": [
+        "Shtëpia, është",
+        "re, pastër",
+        "e re, e pastër",
+        "e, e"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Mbiemra: 'e re', 'e pastër'.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

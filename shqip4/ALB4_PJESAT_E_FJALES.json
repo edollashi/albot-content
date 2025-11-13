@@ -1,0 +1,104 @@
+{
+  "lesson_id": "ALB4_PJESAT_E_FJALES",
+  "title_sq": "Pjesët e fjalës (identifikim)",
+  "title_en": "Parts of speech",
+  "objective": "Nxënësi dallon emër/folje/mbiemër/përemër në fjali.",
+  "grade": 4,
+  "subject": "Albanian",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Loja 'gjej pjesën e fjalës'.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Skemë kategorish.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Përmbledhje e thjeshtë e kategorive kryesore."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/alb_pjeset_sq.mp3",
+    "en": "assets/audio/alb_pjeset_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "'Ne lexojmë librin' – 'lexojmë' është:",
+      "options_sq": [
+        "emër",
+        "folje",
+        "mbiemër",
+        "përemër"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Veprim → folje.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "'Ai është i qetë' – 'i qetë' është:",
+      "options_sq": [
+        "emër",
+        "folje",
+        "mbiemër",
+        "përemër"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Mbiemër.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "'Ata shkojnë' – 'Ata' është:",
+      "options_sq": [
+        "përemër",
+        "emër",
+        "folje",
+        "mbiemër"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Përemër.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "'Deti blu' – 'Deti' është:",
+      "options_sq": [
+        "folje",
+        "mbiemër",
+        "emër",
+        "ndajfolje"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Emër.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "'Shumë shpejt vrapoi' – 'shpejt' është:",
+      "options_sq": [
+        "ndajfolje",
+        "emër",
+        "mbiemër",
+        "folje"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Ndajfolje.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

@@ -1,0 +1,104 @@
+{
+  "lesson_id": "ALB4_ORTOGRAFIA_EC",
+  "title_sq": "Ortografia: përdorimi i 'ë' dhe 'ç'",
+  "title_en": "Orthography: ë/ç",
+  "objective": "Nxënësi shkruan drejt fjalët me 'ë' dhe 'ç'.",
+  "grade": 4,
+  "subject": "Albanian",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Fletë pune me boshllëqe.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Shembuj të vizualizuar.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Kujdes me 'ë/ç' në fund/mes të fjalës."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/alb_ortografia_sq.mp3",
+    "en": "assets/audio/alb_ortografia_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh shkrimin e saktë:",
+      "options_sq": [
+        "qenes",
+        "qenës",
+        "qen",
+        "qenësë"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "'qen' pa ë.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Cila është me 'ç'?",
+      "options_sq": [
+        "mace",
+        "cift",
+        "çift",
+        "maçe"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "'çift' me ç.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "'dritare' ka:",
+      "options_sq": [
+        "ë",
+        "ç",
+        "asnjë",
+        "të dyja"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Nuk ka ë/ç.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "'k__m__shë' → fjala 'këmishë'",
+      "options_sq": [
+        "e, i",
+        "ë, i",
+        "e, ë",
+        "ë, i"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "k(ë)m(i)shë.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh shkrimin e saktë:",
+      "options_sq": [
+        "shoqe",
+        "shoçe",
+        "shoje",
+        "shoçeë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "'shoqe'.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

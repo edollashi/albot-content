@@ -1,0 +1,104 @@
+{
+  "lesson_id": "ALB4_FOLJA",
+  "title_sq": "Folja (Veprimi)",
+  "title_en": "Verbs",
+  "objective": "Nxënësi dallon foljen dhe kohën e tashme/të shkuar të thjeshtë.",
+  "grade": 4,
+  "subject": "Albanian",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Veprime me karta (shkruaj/lexoj/luaj).",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Skemë person-vetë-koha.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Folja shpreh veprim/gjendje; lakim sipas vetave."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/alb_folja_sq.mp3",
+    "en": "assets/audio/alb_folja_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cila është FOLJE?",
+      "options_sq": [
+        "i gjerë",
+        "lexoj",
+        "i gjatë",
+        "libër"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'lexoj' është folje (veprim).",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "'Ai ____ librin.' (tashme)",
+      "options_sq": [
+        "lexoi",
+        "lexon",
+        "lexonte",
+        "lexuar"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Koha e tashme: 'lexon'.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "'Ne ____ lojën dje.'",
+      "options_sq": [
+        "luajmë",
+        "luajmë dje",
+        "luajtëm",
+        "luanin"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "E shkuara e thjeshtë: 'luajtëm'.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cila fjali ka folje në vetën e parë shumës?",
+      "options_sq": [
+        "Unë pikturoj.",
+        "Ne pikturojmë.",
+        "Ti pikturon.",
+        "Ata pikturojnë."
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'Ne pikturojmë.'",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Gjej foljen: 'Mësuesja flet qetë.'",
+      "options_sq": [
+        "Mësuesja",
+        "flet",
+        "qetë",
+        "."
+      ],
+      "answer_index": 1,
+      "explanation_sq": "'flet' është folje.",
+      "difficulty": 0.2
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}
