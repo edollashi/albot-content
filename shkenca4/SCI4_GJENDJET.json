@@ -1,0 +1,104 @@
+{
+  "lesson_id": "SCI4_GJENDJET",
+  "title_sq": "Gjendjet e lëndës",
+  "title_en": "States of matter",
+  "objective": "Nxënësi dallon të ngurtë, të lëngët, gaz.",
+  "grade": 4,
+  "subject": "Science",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Objekte reale.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabela kthese gjendjesh.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Kalimet kryesore."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/sci_states_sq.mp3",
+    "en": "assets/audio/sci_states_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cili është shembull GAZI?",
+      "options_sq": [
+        "Akulli",
+        "Uji",
+        "Avulli",
+        "Guri"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Avulli është gaz.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Uji → akull është:",
+      "options_sq": [
+        "avullim",
+        "kondensim",
+        "ngrirje",
+        "shkrirje"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Nga lëng në të ngurtë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "E lëngta merr formën e:",
+      "options_sq": [
+        "enës",
+        "vetes",
+        "ajrit",
+        "asnjë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Merr formën e enës.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cili ndryshim kërkon nxehtësi?",
+      "options_sq": [
+        "ngrirje",
+        "avullim",
+        "kondensim",
+        "ngurtësim"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Avullimi kërkon energji.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Shembull i të ngurtës:",
+      "options_sq": [
+        "Lëngu i portokallit",
+        "Ajri",
+        "Shqiponja",
+        "Buka"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "Buka është e ngurtë.",
+      "difficulty": 0.2
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

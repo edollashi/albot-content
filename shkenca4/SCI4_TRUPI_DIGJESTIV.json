@@ -1,0 +1,104 @@
+{
+  "lesson_id": "SCI4_TRUPI_DIGJESTIV",
+  "title_sq": "Sistemi tretës",
+  "title_en": "Digestive system",
+  "objective": "Nxënësi rendit stacionet kryesore të tretjes.",
+  "grade": 4,
+  "subject": "Science",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Poster tretës.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Diagramë me shigjeta.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Rrjedha bazë e tretjes."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/sci_digjestiv_sq.mp3",
+    "en": "assets/audio/sci_digjestiv_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Tretja nis te:",
+      "options_sq": [
+        "stomaku",
+        "goja",
+        "zorrët",
+        "mëlçia"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Goja me përtypje.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Cila nuk është pjesë e tretjes?",
+      "options_sq": [
+        "ezofagu",
+        "stomaku",
+        "mushkëritë",
+        "zorra e hollë"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Mushkëri = sistem tjetër.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Ushqyesit thithen kryesisht në:",
+      "options_sq": [
+        "stomak",
+        "zorrë e hollë",
+        "mëlçi",
+        "gojë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Thithja ndodh në zorrën e hollë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Roli i stomakut:",
+      "options_sq": [
+        "përtyp",
+        "ruan frymën",
+        "përzien dhe tret ushqimin",
+        "freskon"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Tretje kimike/fizike.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Është e rëndësishme të përtypim:",
+      "options_sq": [
+        "shpejt",
+        "ngadalë dhe mirë",
+        "pa përtypur",
+        "vetëm pijet"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Ndihmon tretjen.",
+      "difficulty": 0.2
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

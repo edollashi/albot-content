@@ -1,0 +1,104 @@
+{
+  "lesson_id": "SCI4_PLANETET",
+  "title_sq": "Planetet dhe Dielli",
+  "title_en": "Solar system basics",
+  "objective": "Nxënësi njeh diellin si yll dhe disa planete.",
+  "grade": 4,
+  "subject": "Science",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Modele topash.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Diagramë sistem diellor.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Konceptet bazë."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/sci_planetet_sq.mp3",
+    "en": "assets/audio/sci_planetet_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Dielli është:",
+      "options_sq": [
+        "planet",
+        "yll",
+        "hënë",
+        "kometë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Yll.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Cili është planet?",
+      "options_sq": [
+        "Osa",
+        "Toka",
+        "Orioni",
+        "Siria"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Toka është planet.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Planeti më afër Diellit:",
+      "options_sq": [
+        "Marsi",
+        "Merkuri",
+        "Jupiteri",
+        "Plutoni"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Merkuri.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Udha e Tokës rreth Diellit quhet:",
+      "options_sq": [
+        "rrotullim",
+        "revolucion",
+        "dritë",
+        "orbitë"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "Orbitë.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Hëna rrotullohet rreth:",
+      "options_sq": [
+        "Marsit",
+        "Tokës",
+        "Diellit",
+        "Jupiterit"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Rreth Tokës.",
+      "difficulty": 0.2
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

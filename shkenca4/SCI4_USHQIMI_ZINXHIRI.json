@@ -1,0 +1,104 @@
+{
+  "lesson_id": "SCI4_USHQIMI_ZINXHIRI",
+  "title_sq": "Zinxhiri ushqimor",
+  "title_en": "Food chain",
+  "objective": "Nxënësi kupton prodhues-konsumator-shkatërrues.",
+  "grade": 4,
+  "subject": "Science",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Karton me shigjeta.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Skemë zinxhiri.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Balanca në ekosistem."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/sci_zinxhiri_sq.mp3",
+    "en": "assets/audio/sci_zinxhiri_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Bimët quhen:",
+      "options_sq": [
+        "prodhues",
+        "konsumatorë",
+        "shkatërrues",
+        "asgjë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Bëjnë ushqim vetë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Ujku është:",
+      "options_sq": [
+        "prodhues",
+        "konsumator mishngrënës",
+        "shkatërrues",
+        "bimë"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Konsumator mishngrënës.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Shpërbërësit (decomposers) janë:",
+      "options_sq": [
+        "prodhues",
+        "konsumatorë",
+        "shkatërrues",
+        "minerale"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Shpërbëjnë lëndët organike.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Shigjetat tregojnë:",
+      "options_sq": [
+        "drejtimin e energjisë",
+        "ngjyrat",
+        "temperaturën",
+        "shpejtësinë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Nga burimi tek konsumatorët.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Shembull: bar → lepur → dhelprë. Prodhuesi është:",
+      "options_sq": [
+        "lepur",
+        "bar",
+        "dhelprë",
+        "dielli"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Bar = prodhues.",
+      "difficulty": 0.2
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

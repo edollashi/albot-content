@@ -1,0 +1,104 @@
+{
+  "lesson_id": "SCI4_UJI_CIKLI",
+  "title_sq": "Cikli i ujit",
+  "title_en": "Water cycle",
+  "objective": "Nxënësi shpjegon avullimin, kondensimin, reshjet dhe rrjedhjen.",
+  "grade": 4,
+  "subject": "Science",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Eksperiment me gotë në dritare.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Cikli i ujit me shigjeta.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Rrethi i ujit."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/sci_uji_sq.mp3",
+    "en": "assets/audio/sci_uji_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Uji nga deti → avull shkon në ajër quhet:",
+      "options_sq": [
+        "reshje",
+        "kondensim",
+        "avullim",
+        "rrjedhje"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Ngrohje → avullim.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Avulli kthehet në pikla uji:",
+      "options_sq": [
+        "kondensim",
+        "avullim",
+        "reshje",
+        "ngrirje"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Ftohje → kondensim.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Shi/borë/gradinë janë:",
+      "options_sq": [
+        "avullim",
+        "reshje",
+        "rrjedhje",
+        "lagështi"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Forma të reshjeve.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Uji që kthehet në lumenj tokësor quhet:",
+      "options_sq": [
+        "reshje",
+        "rrjedhje sipërfaqësore",
+        "kondensim",
+        "avullim"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Rrjedhje sipërfaqësore.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cila rrit avullimin?",
+      "options_sq": [
+        "Hija",
+        "Era e ftohtë",
+        "Dielli i fortë",
+        "Borë"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "Më shumë nxehtësi → avullim.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

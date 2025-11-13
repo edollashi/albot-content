@@ -1,0 +1,104 @@
+{
+  "lesson_id": "SCI4_BIMET",
+  "title_sq": "Bimët: pjesët dhe funksionet",
+  "title_en": "Plants: parts & functions",
+  "objective": "Nxënësi njeh rrënjën, kërcellin, gjethet dhe lulet; çfarë bëjnë.",
+  "grade": 4,
+  "subject": "Science",
+  "locale_default": "sq",
+  "duration_est_min": 10,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Model bimë e gjallë.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Diagramë e pjesëve të bimës.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Roli i pjesëve dhe fotosinteza thjesht."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/sci_bimet_sq.mp3",
+    "en": "assets/audio/sci_bimet_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cila pjesë thith ujin dhe kripërat?",
+      "options_sq": [
+        "Gjethet",
+        "Rrënja",
+        "Lulet",
+        "Fruti"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Rrënja thith ujin/kripërat.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Fotosinteza ndodh kryesisht te:",
+      "options_sq": [
+        "Rrënja",
+        "Gjethet",
+        "Kërcelli",
+        "Farërat"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Klorofili te gjethet.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Kërcelli kryen:",
+      "options_sq": [
+        "magazinim dritë",
+        "transport lëndësh",
+        "nxehtësi",
+        "shkrirje akulli"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Transport ujë/ushqyes.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Polenizimi lidhet me:",
+      "options_sq": [
+        "Gjethet",
+        "Lulet",
+        "Rrënjët",
+        "Barku"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Lulet për shumëzim.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Cila kërkon më shumë dritë?",
+      "options_sq": [
+        "Kërpudhat",
+        "Bimët",
+        "Minierat",
+        "Guri"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Bimët për fotosintezë.",
+      "difficulty": 0.2
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot"
+  ],
+  "prerequisites": [],
+  "version": 1
+}
