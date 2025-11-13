@@ -1,0 +1,174 @@
+{
+  "lesson_id": "MATH4_SHUMEZIM_4X1",
+  "title_sq": "Shumëzimi: 4-shifror × 1-shifror",
+  "title_en": "Multiplication: 4-digit × 1-digit",
+  "objective": "Nxënësi shumëzon numra 4-shifrorë me 1-shifror me kalime.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Grupime në shumëzime si 'qindra' × shifra.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabelë me kolona për produktet ndërmjetëse.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Shumëzo njësi → dhjetat → qindrat → mijërat; mbaj kalimet."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/multiply_4x1_sq.mp3",
+    "en": "assets/audio/multiply_4x1_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "1,234 × 5 = ?",
+      "options_sq": [
+        "6,170",
+        "6,235",
+        "5,170",
+        "6,345"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "1,234 × 5 = 6,170.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "4,002 × 3 = ?",
+      "options_sq": [
+        "12,006",
+        "12,060",
+        "12,600",
+        "13,006"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "4,002 × 3 = 12,006.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "9,999 × 2 = ?",
+      "options_sq": [
+        "19,998",
+        "20,000",
+        "18,999",
+        "19,990"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "9,999 × 2 = 19,998.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "2,500 × 4 = ?",
+      "options_sq": [
+        "10,000",
+        "1,000",
+        "12,000",
+        "9,000"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "2,500 × 4 = 10,000.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "3,210 × 0 = ?",
+      "options_sq": [
+        "0",
+        "321",
+        "3,210",
+        "32,100"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "× 0 = 0.",
+      "difficulty": 0.1
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "5,000 × 6 = ?",
+      "options_sq": [
+        "30,000",
+        "3,000",
+        "60,000",
+        "36,000"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "= 30,000.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "1,111 × 9 = ?",
+      "options_sq": [
+        "9,999",
+        "9,990",
+        "10,999",
+        "8,999"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "= 9,999.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "7,070 × 3 = ?",
+      "options_sq": [
+        "21,210",
+        "20,210",
+        "22,210",
+        "21,700"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "= 21,210.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "4,040 × 4 = ?",
+      "options_sq": [
+        "16,160",
+        "16,140",
+        "15,160",
+        "14,160"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "= 16,160.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "2,222 × 5 = ?",
+      "options_sq": [
+        "11,110",
+        "10,110",
+        "12,110",
+        "11,210"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "= 11,110.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

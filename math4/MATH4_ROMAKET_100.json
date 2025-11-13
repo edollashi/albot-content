@@ -1,0 +1,174 @@
+{
+  "lesson_id": "MATH4_ROMAKET_100",
+  "title_sq": "Numrat romakë deri në 100",
+  "title_en": "Roman numerals to 100",
+  "objective": "Nxënësi njeh dhe konverton numrat romakë deri në C (100).",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Kartela me shenja romake (I, V, X, L, C).",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabelë krahasimi romak ↔ arab.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Rregulla: IV=4, IX=9, XL=40, XC=90."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/roman_100_sq.mp3",
+    "en": "assets/audio/roman_100_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cili është 47 në romakë?",
+      "options_sq": [
+        "IL",
+        "XLVII",
+        "XLIV",
+        "VLII"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "40=XL dhe 7=VII → XLVII.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "XL = ?",
+      "options_sq": [
+        "50",
+        "40",
+        "60",
+        "10"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "XL=40.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "90 shkruhet:",
+      "options_sq": [
+        "LC",
+        "IC",
+        "XC",
+        "CX"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "90=XC.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cili është 54 në romakë?",
+      "options_sq": [
+        "LIV",
+        "LVIV",
+        "ILV",
+        "XLIX"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "50=L, 4=IV → LIV.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "IX = ?",
+      "options_sq": [
+        "11",
+        "8",
+        "10",
+        "9"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "IX=9.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "CX = ?",
+      "options_sq": [
+        "90",
+        "110",
+        "100",
+        "60"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "C+X=110.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Cili është 76 në romakë?",
+      "options_sq": [
+        "LXXVI",
+        "LXVI",
+        "LXVII",
+        "LXV"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "70=LXX, 6=VI → LXXVI.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "45 shkruhet:",
+      "options_sq": [
+        "VL",
+        "XLV",
+        "IL",
+        "XV"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "40=XL; 5=V → XLV.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Cili numër është i pavlefshëm?",
+      "options_sq": [
+        "IL",
+        "XLIV",
+        "LXXX",
+        "XC"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "IL nuk përdoret (duhet XLIX).",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "C = ?",
+      "options_sq": [
+        "50",
+        "100",
+        "500",
+        "10"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "C=100.",
+      "difficulty": 0.1
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

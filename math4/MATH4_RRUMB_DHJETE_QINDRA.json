@@ -1,0 +1,146 @@
+{
+  "lesson_id": "MATH4_RRUMB_DHJETE_QINDRA",
+  "title_sq": "Rrumbullakosja: dhjetëra/qindra",
+  "title_en": "Rounding: tens/hundreds",
+  "objective": "Nxënësi rrumbullakos në dhjetëra/qindra.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Grupim në 10/100.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Numërvijë e dhjetave/qindrave.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Shifra kyçe: njësi për dhjetëra; dhjetat për qindra."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/round_tens_hundreds_sq.mp3",
+    "en": "assets/audio/round_tens_hundreds_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "359,499 në qindra:",
+      "options_sq": [
+        "359,400",
+        "359,500",
+        "359,000",
+        "360,000"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Dhjetat 9 (≥5).",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "451,200 në qindra:",
+      "options_sq": [
+        "451,100",
+        "451,200",
+        "451,300",
+        "451,000"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Dhjetat 0 (<5).",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "320,549 në qindra:",
+      "options_sq": [
+        "320,500",
+        "320,600",
+        "320,550",
+        "320,540"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Dhjetat 4 (<5).",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "93,276 në dhjetëra:",
+      "options_sq": [
+        "93,270",
+        "93,280",
+        "93,300",
+        "93,260"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Njësi 6 (≥5).",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "700,015 në qindra:",
+      "options_sq": [
+        "700,000",
+        "700,100",
+        "700,020",
+        "700,010"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Dhjetat 1 (<5).",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "84,756 në dhjetëra:",
+      "options_sq": [
+        "84,750",
+        "84,760",
+        "84,700",
+        "84,770"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Njësi 6 (≥5).",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "999,995 në qindra:",
+      "options_sq": [
+        "999,900",
+        "1,000,000",
+        "1,000,100",
+        "999,995"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "→ 1,000,000.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "205,144 në qindra:",
+      "options_sq": [
+        "205,100",
+        "205,200",
+        "205,000",
+        "205,150"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Dhjetat 4 (<5).",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

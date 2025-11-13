@@ -1,0 +1,144 @@
+{
+  "lesson_id": "MATH4_KRAHASIMI_RENDITJA",
+  "title_sq": "Krahasimi & renditja (deri 999,999)",
+  "title_en": "Comparing & Ordering (to 999,999)",
+  "objective": "Nxënësi krahason dhe rendit numra deri në 999,999.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Krahaso shufra/diagrama blloqesh.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Numërvijë me intervale 100,000.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Krahaso nga pozicioni më i lartë."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/compare_order_sq.mp3",
+    "en": "assets/audio/compare_order_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Cili është më i madh? 450,210 __ 405,210",
+      "options_sq": [
+        "<",
+        ">",
+        "="
+      ],
+      "answer_index": 1,
+      "explanation_sq": "450k > 405k.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "709,002 __ 709,200",
+      "options_sq": [
+        "<",
+        ">",
+        "="
+      ],
+      "answer_index": 0,
+      "explanation_sq": "002 < 200.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Rendit nga më i vogli: 310,450 ; 301,540 ; 304,150",
+      "options_sq": [
+        "301,540 ; 304,150 ; 310,450",
+        "304,150 ; 301,540 ; 310,450",
+        "310,450 ; 304,150 ; 301,540",
+        "301,540 ; 310,450 ; 304,150"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Krahasim pozicional.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cili është në mes: 512,090 ; 501,920 ; 519,200",
+      "options_sq": [
+        "512,090",
+        "501,920",
+        "519,200",
+        "Asnjë"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "501,920 < 512,090 < 519,200.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh numrin më të madh:",
+      "options_sq": [
+        "680,099",
+        "679,990",
+        "670,999",
+        "689,090"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "Dhjetëra mijëra 8 → më i madh.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Cili është më i vogël?",
+      "options_sq": [
+        "400,400",
+        "404,000",
+        "399,999",
+        "409,004"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "399,999 më i vogli.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "520,___ < 521,000 dhe shumëfishi më i madh i 10-s.",
+      "options_sq": [
+        "990",
+        "980",
+        "970",
+        "960"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "520,980.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Rendit në zbritje: 900,001 ; 899,999 ; 900,010",
+      "options_sq": [
+        "900,010 ; 900,001 ; 899,999",
+        "900,001 ; 900,010 ; 899,999",
+        "899,999 ; 900,001 ; 900,010",
+        "900,010 ; 899,999 ; 900,001"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "900,010 më i madhi.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

@@ -1,0 +1,174 @@
+{
+  "lesson_id": "MATH4_ZBRITJA_KALIM",
+  "title_sq": "Zbritja me huazim (6-shifrorë)",
+  "title_en": "Subtraction with borrowing (6-digit)",
+  "objective": "Nxënësi zbaton zbritjen me huazim në numra deri në 6 shifra.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Përdor blloqe dhjetëshe për të 'huazuar' nga kolona tjetër.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Ilustro me shigjeta huazimin midis kolonave.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Nëse njësitë nuk mjaftojnë, huazo 1 dhjetëshe (=10 njësi)."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/subtraction_borrow_sq.mp3",
+    "en": "assets/audio/subtraction_borrow_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "402,000 − 199,999 = ?",
+      "options_sq": [
+        "202,001",
+        "202,000",
+        "201,001",
+        "200,001"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "402,000 − 200,000 = 202,000; +1 → 202,001.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "500,500 − 250,250 = ?",
+      "options_sq": [
+        "250,250",
+        "250,000",
+        "200,250",
+        "300,250"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Gjysma e 500,500 është 250,250.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "100,000 − 1 = ?",
+      "options_sq": [
+        "99,999",
+        "100,001",
+        "100,010",
+        "90,000"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Huazo → 99,999.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "650,321 − 120,123 = ?",
+      "options_sq": [
+        "530,198",
+        "530,201",
+        "530,298",
+        "540,198"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "650,321 − 120,123 = 530,198.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "50,000 − 49,999 = ?",
+      "options_sq": [
+        "1",
+        "10",
+        "100",
+        "0"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Diferenca = 1.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "300,000 − 123,456 = ?",
+      "options_sq": [
+        "176,544",
+        "176,454",
+        "177,544",
+        "173,544"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "300,000 − 123,456 = 176,544.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "1,000,000 − 999,999 = ?",
+      "options_sq": [
+        "1",
+        "10",
+        "100",
+        "0"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Diferenca = 1.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "90,010 − 9,999 = ?",
+      "options_sq": [
+        "80,011",
+        "80,021",
+        "80,001",
+        "79,999"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "90,010 − 9,999 = 80,011.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "700,700 − 700,070 = ?",
+      "options_sq": [
+        "630",
+        "6300",
+        "700",
+        "70"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "700,700 − 700,070 = 630.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "222,222 − 111,111 = ?",
+      "options_sq": [
+        "111,111",
+        "111,112",
+        "110,111",
+        "100,111"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "222,222 − 111,111 = 111,111.",
+      "difficulty": 0.3
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

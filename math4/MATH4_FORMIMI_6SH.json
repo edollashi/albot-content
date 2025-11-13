@@ -1,0 +1,146 @@
+{
+  "lesson_id": "MATH4_FORMIMI_6SH",
+  "title_sq": "Formimi i numrave 6-shifrorë",
+  "title_en": "Forming 6-digit numbers",
+  "objective": "Nxënësi formon numra 6-shifrorë nga shifra të dhëna dhe kupton rendin e tyre.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Përdor kartela shifrash për të ndërtuar numra.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Vendos shifrat në tabelën e pozicioneve.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Numri 6-shifror ka pozicionet deri në qindra mijëra."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/forming_6digit_sq.mp3",
+    "en": "assets/audio/forming_6digit_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Përdor shifrat 4,0,7,9,2,5. Cili është numri MË I MADH?",
+      "options_sq": [
+        "975,420",
+        "974,520",
+        "975,240",
+        "972,540"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "9 7 5 4 2 0 → 975,420.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Me shifrat 1,3,3,8,0,6 formo numrin më të vogël 6-shifror.",
+      "options_sq": [
+        "013,368",
+        "103,368",
+        "133,068",
+        "130,368"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Zero s’mund të jetë në krye → 103,368.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Sa numra 6-shifrorë formohen nga 1–6 pa përsëritje?",
+      "options_sq": [
+        "120",
+        "360",
+        "720",
+        "1,200"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "6! = 720.",
+      "difficulty": 0.7
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cili numër është i mundur me 0,2,2,5,9,9?",
+      "options_sq": [
+        "022,599",
+        "202,599",
+        "220,599",
+        "922,590"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "922,590 i vlefshëm.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Rendit nga më i vogli: 506,021 ; 560,012 ; 500,621",
+      "options_sq": [
+        "500,621 < 506,021 < 560,012",
+        "506,021 < 500,621 < 560,012",
+        "560,012 < 506,021 < 500,621",
+        "500,621 < 560,012 < 506,021"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Krahasim pozicional.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Nga shifrat 7,7,0,3,2,1, numri më i vogël 6-shifror është:",
+      "options_sq": [
+        "107,237",
+        "170,237",
+        "127,037",
+        "102,377"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "1 0 7 2 3 7.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Zëvendëso * për të bërë numër MË TË MADH se 540,000: 54*,3*2",
+      "options_sq": [
+        "541,302",
+        "542,332",
+        "549,312",
+        "540,032"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "549,312 > 540,000.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Formo numrin më të madh me 0,4,4,8,9,1:",
+      "options_sq": [
+        "984,410",
+        "994,810",
+        "984,401",
+        "984,140"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "9 8 4 4 1 0.",
+      "difficulty": 0.5
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

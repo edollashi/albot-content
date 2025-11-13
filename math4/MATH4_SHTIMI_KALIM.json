@@ -1,0 +1,174 @@
+{
+  "lesson_id": "MATH4_SHTIMI_KALIM",
+  "title_sq": "Shtimi me kalim (6-shifrorë)",
+  "title_en": "Addition with carrying (6-digit)",
+  "objective": "Nxënësi zbaton shtimin me kalim në numra deri në 6 shifra.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Numëro objekte dhe blloqe (qindra, mijëra) për të parë kalimin.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Shtrirje shtesash në kolona me shigjeta për kalim.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Shto njësi → dhjetat → qindrat... duke mbajtur kalimin."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/addition_carry_sq.mp3",
+    "en": "assets/audio/addition_carry_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "346,789 + 129,423 = ?",
+      "options_sq": [
+        "476,112",
+        "476,212",
+        "475,212",
+        "475,112"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "346,789 + 129,423 = 476,212.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "500,500 + 500,500 = ?",
+      "options_sq": [
+        "1,000,000",
+        "1,001,000",
+        "999,999",
+        "1,010,000"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "500,500 + 500,500 = 1,001,000.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "89,999 + 2,001 = ?",
+      "options_sq": [
+        "92,000",
+        "91,000",
+        "90,000",
+        "91,900"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "90,000 + 2,000 = 92,000.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "123,456 + 78,901 = ?",
+      "options_sq": [
+        "202,357",
+        "202,356",
+        "202,457",
+        "201,357"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "123,456 + 78,901 = 202,357.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "9,999 + 1 = ?",
+      "options_sq": [
+        "10,000",
+        "9,999",
+        "11,000",
+        "10,100"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Ngrihet në 10,000.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "70,070 + 9,930 = ?",
+      "options_sq": [
+        "79,900",
+        "80,000",
+        "79,990",
+        "70,000"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "70,070 + 9,930 = 80,000.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "234,567 + 765,432 = ?",
+      "options_sq": [
+        "999,999",
+        "1,000,000",
+        "998,999",
+        "1,001,000"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Shuma = 999,999.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "405,600 + 2,450 = ?",
+      "options_sq": [
+        "408,050",
+        "408,000",
+        "407,950",
+        "409,050"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "405,600 + 2,450 = 408,050.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "800,008 + 92 = ?",
+      "options_sq": [
+        "800,100",
+        "800,090",
+        "800,008",
+        "800,000"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "800,008 + 92 = 800,100.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "420,420 + 579,580 = ?",
+      "options_sq": [
+        "999,999",
+        "1,000,000",
+        "1,000,010",
+        "900,000"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "420,420 + 579,580 = 1,000,000.",
+      "difficulty": 0.5
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

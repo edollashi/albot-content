@@ -1,0 +1,174 @@
+{
+  "lesson_id": "MATH4_NJESI_MATJE",
+  "title_sq": "Njësitë e matjes – gjatësia, masa, kapaciteti",
+  "title_en": "Measurement units – length, mass, capacity",
+  "objective": "Nxënësi njeh dhe konverton njësi bazë (m↔cm; kg↔g; l↔ml).",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Mat me vizore/llogarite peshë dhe vëllim me masa reale.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabelë konvertimesh me shembuj.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "1 m=100 cm; 1 kg=1000 g; 1 l=1000 ml."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/measurement_units_sq.mp3",
+    "en": "assets/audio/measurement_units_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "3 m = ? cm",
+      "options_sq": [
+        "30",
+        "300",
+        "3000",
+        "3"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "1 m=100 cm → 300 cm.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "2,5 kg = ? g",
+      "options_sq": [
+        "250 g",
+        "2500 g",
+        "25 g",
+        "2005 g"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "2.5×1000=2500 g.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "750 ml = ? l",
+      "options_sq": [
+        "0.75 l",
+        "7.5 l",
+        "75 l",
+        "0.075 l"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "1000 ml=1 l → 0.75 l.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Cila është njësi **jo** e gjatësisë?",
+      "options_sq": [
+        "cm",
+        "m",
+        "kg",
+        "km"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "kg është masë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "1.2 l = ? ml",
+      "options_sq": [
+        "120 ml",
+        "1200 ml",
+        "12 ml",
+        "1020 ml"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "1.2×1000=1200 ml.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "0.5 kg = ? g",
+      "options_sq": [
+        "50 g",
+        "500 g",
+        "5 g",
+        "5,000 g"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "0.5×1000=500 g.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "200 cm = ? m",
+      "options_sq": [
+        "2 m",
+        "20 m",
+        "0.2 m",
+        "200 m"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "200÷100=2 m.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "3 l = ? ml",
+      "options_sq": [
+        "30 ml",
+        "300 ml",
+        "3000 ml",
+        "3 ml"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "3×1000=3000 ml.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q9",
+      "type": "mcq",
+      "prompt_sq": "Cila është njësi e **masës**?",
+      "options_sq": [
+        "l",
+        "ml",
+        "kg",
+        "cm"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "kg → masë.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q10",
+      "type": "mcq",
+      "prompt_sq": "1.25 m = ? cm",
+      "options_sq": [
+        "12.5 cm",
+        "125 cm",
+        "1,250 cm",
+        "1.5 m"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "1.25×100=125 cm.",
+      "difficulty": 0.4
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}

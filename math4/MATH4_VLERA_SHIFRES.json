@@ -1,0 +1,146 @@
+{
+  "lesson_id": "MATH4_VLERA_SHIFRES",
+  "title_sq": "Vlera e shifrës (4–6 shifra)",
+  "title_en": "Place Value (4–6 digits)",
+  "objective": "Nxënësi identifikon vlerën e shifrave në numra deri në 999,999.",
+  "grade": 4,
+  "subject": "Math",
+  "locale_default": "sq",
+  "duration_est_min": 12,
+  "cpa": {
+    "concrete": {
+      "text_sq": "Shiko kartëmonedha/monedha (qindra, mijëra) për të kuptuar vlerat.",
+      "image": ""
+    },
+    "pictorial": {
+      "text_sq": "Tabelë me kolona: Njësitë, Dhjetat, Qindrat, Mijëra, Dhjetëra mijëra, Qindra mijëra.",
+      "image": ""
+    },
+    "abstract": {
+      "text_sq": "Vlera e shifrës = shifra × pozicioni (p.sh. 5 në qindrat = 500)."
+    }
+  },
+  "audio": {
+    "sq": "assets/audio/place_value_sq.mp3",
+    "en": "assets/audio/place_value_en.mp3"
+  },
+  "quiz": [
+    {
+      "qid": "Q1",
+      "type": "mcq",
+      "prompt_sq": "Në numrin 482,659, cila është vlera e shifrës 8?",
+      "options_sq": [
+        "8",
+        "80",
+        "800",
+        "8,000"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "8 është në vendin e mijërave → 8 × 1,000 = 8,000.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q2",
+      "type": "mcq",
+      "prompt_sq": "Në numrin 905,314, cila është vlera e shifrës 3?",
+      "options_sq": [
+        "3",
+        "30",
+        "300",
+        "3,000"
+      ],
+      "answer_index": 2,
+      "explanation_sq": "3 është në vendin e qindrave → 300.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q3",
+      "type": "mcq",
+      "prompt_sq": "Cila shifër është në vendin e dhjetëra mijëra në 761,024?",
+      "options_sq": [
+        "7",
+        "6",
+        "1",
+        "0"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "Pozicioni: 7 (qindra mijëra), 6 (dhjetëra mijëra) → përgjigja 6.",
+      "difficulty": 0.5
+    },
+    {
+      "qid": "Q4",
+      "type": "mcq",
+      "prompt_sq": "Vlera e shifrës 5 në 150,902 është:",
+      "options_sq": [
+        "5",
+        "50,000",
+        "500,000",
+        "500"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "5 është në dhjetëra mijëra → 50,000.",
+      "difficulty": 0.4
+    },
+    {
+      "qid": "Q5",
+      "type": "mcq",
+      "prompt_sq": "Në 999,999 vlera e shifrës 9 e majtë-skajore është:",
+      "options_sq": [
+        "9",
+        "900",
+        "90,000",
+        "900,000"
+      ],
+      "answer_index": 3,
+      "explanation_sq": "Shifra e parë është në qindra mijëra → 900,000.",
+      "difficulty": 0.2
+    },
+    {
+      "qid": "Q6",
+      "type": "mcq",
+      "prompt_sq": "Cila është vlera e shifrës 0 në 407,612?",
+      "options_sq": [
+        "0",
+        "40",
+        "400",
+        "4,000"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Vlera e 0 është 0.",
+      "difficulty": 0.6
+    },
+    {
+      "qid": "Q7",
+      "type": "mcq",
+      "prompt_sq": "Në 230,145 cila shifër është në vendin e qindrave?",
+      "options_sq": [
+        "1",
+        "4",
+        "0",
+        "5"
+      ],
+      "answer_index": 0,
+      "explanation_sq": "Pozicionet ... qindrat: 1 → vlera 100.",
+      "difficulty": 0.3
+    },
+    {
+      "qid": "Q8",
+      "type": "mcq",
+      "prompt_sq": "Zgjidh deklaratën e saktë për 684,302:",
+      "options_sq": [
+        "6 ka vlerë 6,000",
+        "8 ka vlerë 80,000",
+        "4 ka vlerë 4,000",
+        "3 ka vlerë 30,000"
+      ],
+      "answer_index": 1,
+      "explanation_sq": "8 është në dhjetëra mijëra → 80,000.",
+      "difficulty": 0.5
+    }
+  ],
+  "badges_on_complete": [
+    "Pilot-Math4"
+  ],
+  "prerequisites": [],
+  "version": 1
+}
